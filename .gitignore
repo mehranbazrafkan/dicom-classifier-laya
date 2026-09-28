@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------
+# Project data (patient/clinical DICOM data)
+# Never commit or push this folder: it contains medical
+# imaging data that must stay local.
+# ---------------------------------------------------------
+data/
